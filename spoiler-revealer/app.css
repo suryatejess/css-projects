@@ -1,0 +1,18 @@
+p {
+    line-height: 1.5em;
+}
+
+span {
+    /*
+    highlight with black
+    */
+    background-color: black;
+}
+
+span:hover {
+    /*
+    remove the highlight
+    */
+    background-color: white;
+    transition-duration: 1s;
+}
